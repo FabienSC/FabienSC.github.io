@@ -1,9 +1,0 @@
-20151117T191936: flyingfei.com/index.php
-PHP Notice:  Undefined offset: 0 in /hermes/bosnaweb10a/b873/ipg.flyingfeicom/includes/bootstrap.inc on line 1615
-
-20151117T191937: flyingfei.com/index.php
-PHP Notice:  Undefined offset: 0 in /hermes/bosnaweb10a/b873/ipg.flyingfeicom/includes/bootstrap.inc on line 1615
-
-20160606T105438: www.flyingfei.com/index.php
-PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16640 bytes) in /hermes/bosnaweb10a/b873/ipg.flyingfeicom/modules/system/image.gd.inc on line 237
-
