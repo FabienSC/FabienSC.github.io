@@ -20,20 +20,15 @@ title: LIDAR Scanner
 	<a href="/lidar_scanner/videos" target="_self">Videos</a>&nbsp; &nbsp;
     <a href="/lidar_scanner/design" target="_self">Design</a></span></p>
 	
-	
 <p><a title="Click for more photos" href="/lidar_scanner/photos" target="_self">
-<span style="font-family: arial, helvetica, sans-serif;">
-<img style="float: right;display:inline-block;margin:20px;" src="/fab_imgs/projects/lidar_scanner/lidar_scanner%20Project.jpg" alt="" width="400" /></span></a></p>
-<p style="text-align: justify;">
-<span style="font-family: arial, helvetica, sans-serif;">
-I designed and built a small remote controlled hovercraft at the end of the 2013 summer.</span></p>
-<p style="text-align: justify;">
-<span style="font-family: arial, helvetica, sans-serif; line-height: 1.538em;">
-The final version uses 2 electric ducted fans for thrust both with the ability to turn left/right/180°. This allows the hovercraft to go forwards and steer left and right but as well go backwards.</span></p>
-<p style="text-align: justify;">
-<span style="font-family: arial, helvetica, sans-serif; line-height: 1.538em;">
-A 3<sup>rd</sup>&nbsp;ducted fan is built right into the body of the hovercraft and allows the skirt to fill with air and allow the hovercraft to glide on flat surfaces and float on water. This fan's speed can be adjusted to inflate/deflate the hovercraft's skirt.</span></p>
-<p style="text-align: justify;">
-<span style="font-family: arial, helvetica, sans-serif; line-height: 1.538em;">
-It is controlled by my RF Playstation remote (another one of my projects).</span></p>
+ <span style="font-family: arial, helvetica, sans-serif;">
+ <img style="float: right; display: inline-block; margin: 20px;" src="/fab_imgs/projects/lidar_scanner/3D_LIDAR_Scanner_2.jpg" alt="" width="400" /></span></a></p>
 
+ <p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;">
+During my second year of engineering school, I worked on a low-cost 3D LIDAR Scanner with one of my colleagues.</span></p>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; line-height: 1.538em;">
+ We mainly worked on the software for the scanner. We had finished the basic requirements for the project within one month which allowed us to try some interesting improvements for the final version.</span></p>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;">
+The final version of the scanner stores the raw measurement data on an onboard micro-SD card, then processes it (remove distortion, add color, create polygons) and saves it as a VRML (virtual reality markup language) file readable by certain software such as
+ <a href="http://www.orbisnap.com/" target="_blank">Orbisnap</a>.<br />
+ The onboard Arduino is also acts as a web server allowing a user to connect to it with a computer via ethernet cable. A simple web interface lets the user start the scan remotely and download the 3D VRML file without touching the device.</span></p>
